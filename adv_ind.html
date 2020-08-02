@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <title>Advanced Search</title>
+       <style>
+	   p		{
+	   text-align:right;
+	   }
+	   .fields > div	{
+	   position: relative;
+	   margin: 20px;
+	   }
+	   .credit	{
+	   position:absolute;
+	   bottom:10px;
+	   left:25px;
+	   }
+      </style>
+     </head>
+     <body>
+       <p><a href="index.html">Google Search</a></p>
+	<form action="https://www.google.com/search?as_q">
+	  <p style="text-align:left; margin:20px; color:#a1a1a1;">Find Pages With...</p>
+	  <div class="fields">	
+   	   <div>
+	     <input type="text" name="as_q" size="50" maxlength="50" Placeholder="all these words:">
+	   </div>
+	   <div>
+	     <input type="text" name="as_epq" size="50" maxlength="50" Placeholder="this exact word or phrase:">
+	   </div>
+	   <div>
+	     <input type="text" name="as_oq" size="50" maxlength="50" Placeholder="any of these words:">
+	   </div>
+	   <div>
+	     <input type="text" name="as_eq" size="50" maxlength="50" Placeholder="none of these words:">
+	   </div>
+	   <div>
+	     <input type="submit" value="Advanced Search" style="background:#3079ed; color:white; border-radius:5px;">
+	   </div>
+	  </div>
+	 <h6 class="credit" style="color:red"> Credit goes to Google.com and flamingtext.com</h6>
+     </body>
+</html>
